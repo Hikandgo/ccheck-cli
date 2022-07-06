@@ -10,8 +10,8 @@ const getArgs = (args) => {
 				res[value.substring(1)] = array[index + 1];
 			} else {
 				res[value.substring(1)] = true;
-			}
-		}
+			};
+		};
 	});
 	return res;
 };

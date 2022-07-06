@@ -87,7 +87,7 @@ const initCLI = async () => {
 		return printHelp();
 	};
 	if (args.t) {
-		return saveToken(args.t)
+		return saveToken(args.t);
 	};
 	if (args.cur) {
 		return saveCurrency(args.cur);

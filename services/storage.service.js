@@ -35,8 +35,7 @@ const isExist = async (path) => {
 		return true;
 	} catch (e) {
 		return false;
-	}
-
-}
+	};
+};
 
 export { saveKeyValue, getKeyValue, USER_DICT };

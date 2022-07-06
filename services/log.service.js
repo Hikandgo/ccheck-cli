@@ -6,7 +6,7 @@ const printHelp = () => {
 		dedent(`${chalk.bgCyan('ДОСТУПНЫЕ КОМАНДЫ ДЛЯ УПРАВЛЕНИЯ')}
 		${chalk.bgGreen('Без параметров        ') + ' вывод сохраненных валют (условно в usd)'}
 		${chalk.bgGreen('-cur [FIAT]           ')} для смены валюты отображения по умолчанию
-		${chalk.bgGreen('-h                    ')} для вывода помощи
+		${chalk.bgGreen('-h                    ')} для вывода списка команд
 		${chalk.bgGreen('-t [API COINMARKET]   ')} для сохранения токена (только для airdrops)
 		${chalk.bgGreen('-add [NAME1, NAME2..] ')} для добавления в список
 		${chalk.bgGreen('-l                    ')} отображение сохраненных в списке криптовалют
