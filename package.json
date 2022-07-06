@@ -1,0 +1,26 @@
+{
+  "name": "ccheck",
+  "version": "1.0.0",
+  "description": "Cryptocurrency helper",
+  "main": "ccheck.js",
+  "bin": {
+    "ccheck": "ccheck.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crypto",
+    "airdrop",
+    "airdrops"
+  ],
+  "author": "Hikandgo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "ccheck": "^1.0.0",
+    "chalk": "^5.0.1",
+    "dedent-js": "^1.0.1"
+  }
+}
